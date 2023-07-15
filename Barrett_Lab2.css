@@ -1,0 +1,156 @@
+body {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  border:1px solid black;
+  overflow: hidden;
+  background-color: black;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  display: inline;
+}
+    
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: 33%
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 18px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightslategray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 22px; 
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  color: cadetblue;
+  font-size: 30px;
+}
+
+/* Table Style */
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}/* Spacing */
+
+td, th {
+  border-style: hidden
+  /*border: 1px solid #999; */
+  padding-left:  30px;
+  padding-right: 30px;
+  vertical-align: center;
+}
+
+/* Ordered List Style */
+div ol li {
+ /*this will style the bullets*/
+}
+
+div ol li p {
+/*this will style the text*/
+font-size: 20px;
+}
+
+/* Highlighter Style */
+mark {
+  background-color: white;
+  color: blue;
+}
+
+.centre { 
+  text-align: center;
+  /* border: 3px solid green;*/ 
+}
+
+/* Header 0 Style */
+h0 {
+    color: lightslategray;
+    font-size: 48px;
+}
+
+/* Header 1 Style */
+h1 {
+  background-color: lightslategray;
+  color: white
+}
+
+h2 {
+  background-color: white;
+  color: black
+  text-align: left;
+  font-size: 28px;
+}
+
+/* Paragraph Style */
+p {
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+  /* border: 2px solid cadetblue; */
+}
+
+/* Paragraph 2 Style */
+p.2 {
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  /* border: 2px solid cadetblue; */
+}
+
