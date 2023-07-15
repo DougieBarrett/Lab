@@ -20,6 +20,7 @@ body {
   padding: 18px 18px;
   text-decoration: none;
   display: inline;
+  text-transform: uppercase;
 }
     
 .dropdown {
@@ -37,6 +38,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -59,7 +61,8 @@ body {
   text-decoration: none;
   display: block;
   text-align: center;
-  font-size: 22px; 
+  font-size: 22px;
+  text-transform: none;
 }
 
 .dropdown-content a:hover {
