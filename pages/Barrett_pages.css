@@ -113,6 +113,13 @@ h2 {
   text-align: center;
 }
 
+h3 {
+   background-color: white;
+   color: lightslategray;
+   text-align: justify;
+   font-size: 28px;
+}
+
 
 /* Paragraph Style */
 p {
