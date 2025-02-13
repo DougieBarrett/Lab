@@ -77,7 +77,6 @@
 
 <p>The images below are example trials from one of the visual tasks. Your objective on each trial is to report the orientation (upwards or downwards) of the “T” in the uniquely shaped object. On some trials, the display will include a uniquely coloured object. The target “T” will never appear in the uniquely coloured object, so you should ignore this and report the orientation of the “T” in the uniquely shaped object as accurately and fast as possible. <br></p>
 
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,6 +87,7 @@
             justify-content: center;  /* Centers the images */
             align-items: center;      /* Aligns them vertically */
             gap: 50px;                /* Adds space between images */
+            width: 100%;              /* Ensures it spans the full page */
         }
         .column img {
             width: 40%;               /* Controls image size */
@@ -95,8 +95,8 @@
         }
     </style>
 </head>
+    
 <body>
-
     <div class="row">
         <div class="column">
             <img src="../images/OVA_Trial2.png" alt="No-singleton">
@@ -105,7 +105,6 @@
             <img src="../images/OVA_Trial1.png" alt="Colour-singleton">
         </div>
     </div>
-
 </body>
     
 <p>Displays on each trial will always include a uniquely shaped object (the circle on the left and the triangle on the right). Your objective is to report the orientation of the “T” in the uniquely shaped object using the up and down arrow keys to indicate upright and inverted respectively. <br></p>
